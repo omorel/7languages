@@ -1,5 +1,3 @@
-i = 0 
-while i < 10 
-  puts 'olivier'
-  i += 1
+(1..10).each do |i|
+  puts "This is sentence number #{i}"
 end 
